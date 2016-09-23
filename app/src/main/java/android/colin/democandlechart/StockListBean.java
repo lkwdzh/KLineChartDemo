@@ -65,6 +65,15 @@ public class StockListBean {
         private float ma5;
         private float ma10;
         private float ma20;
+        private float  val;
+
+        public float getVal() {
+            return val;
+        }
+
+        public void setVal(float val) {
+            this.val = val;
+        }
 
         public String getDate() {
             return Date;
@@ -144,6 +153,23 @@ public class StockListBean {
 
         public void setMa20(float ma20) {
             this.ma20 = ma20;
+        }
+
+        @Override
+        public String toString() {
+            return "StockBean{" +
+                    "Date='" + Date + '\'' +
+                    ", Open=" + Open +
+                    ", High=" + High +
+                    ", Low=" + Low +
+                    ", Close=" + Close +
+                    ", Volume='" + Volume + '\'' +
+                    ", Adj=" + Adj +
+                    ", ma5=" + ma5 +
+                    ", ma10=" + ma10 +
+                    ", ma20=" + ma20 +
+                    ", val=" + val +
+                    '}';
         }
     }
 }

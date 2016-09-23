@@ -111,4 +111,5 @@ public class BarData extends BarLineScatterCandleBubbleData<IBarDataSet> {
     // public float getBarWidthMaximum() {
     // return mMaximumBarWidth;
     // }
+
 }

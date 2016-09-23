@@ -43,4 +43,26 @@
     <color name="ma5">#823E66</color>
     <color name="ma10">#B99C7A</color>
     <color name="ma20">#3C7193</color>
+
+
+    <color name="minute_grayLine">#2D3945</color>
+    <color name="minute_blue">#00D0FC</color>
+    <color name="minute_yellow">#E7B448</color>
+    <color name="minute_black">#101419</color>
+    <color name="minute_jizhun">#7F9976</color>
+    <color name="minute_zhoutv">#858D93</color>
+    <color name="marker_bg">#1C232E</color>
+    <color name="red">#f00</color>
+    <color name="blue">#061af1</color>
+
+    <color name="color_c12552">#c12552</color>
+
+    <color name="color_ff6600">#ff6600</color>
+
+    <color name="color_f5c700">#f5c700</color>
+
+    <color name="color_6a961f">#6a961f</color>
+
+    <color name="color_b36435">#b36435</color>
+
 </resources>

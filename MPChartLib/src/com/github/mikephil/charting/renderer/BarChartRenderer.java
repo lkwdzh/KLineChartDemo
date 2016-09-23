@@ -373,8 +373,18 @@ public class BarChartRenderer extends DataRenderer {
                 }
 
                 prepareBarHighlight(x, y1, y2, barspaceHalf, trans);
-
-                c.drawRect(mBarRect, mHighlightPaint);
+                //************************************************
+                //自己添加的
+                float xValue = mBarRect.left + (mBarRect.right - mBarRect.left) / 2;
+                this.mHighlightPaint.setStrokeWidth(3);
+                c.drawLine(xValue,     //startX
+                        this.mViewPortHandler.contentTop(),    //startY
+                        xValue,       //stopX
+                        this.mViewPortHandler.contentBottom(),       //stopY
+                        this.mHighlightPaint);      //paint
+                //****************************************************
+                //这才是原先的
+//                c.drawRect(mBarRect, mHighlightPaint);
 
                 if (mChart.isDrawHighlightArrowEnabled()) {
 
